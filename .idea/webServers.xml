@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="279edde1-0850-4b08-96c9-a7c506011076" name="plenty_schaffrath" url="http://ftp-cloud02.plentymarkets.com">
+        <fileTransfer host="ftp-cloud02.plentymarkets.com" port="21" rootFolder="/layout_237218f69d">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
