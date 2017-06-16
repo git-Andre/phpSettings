@@ -32,6 +32,6 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Code/plenty/" />
+    <option name="cloneParentDir" value="D:\xampp\htdocs" />
   </component>
 </application>
