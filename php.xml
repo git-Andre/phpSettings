@@ -41,8 +41,8 @@
             <configuration_option name="default_socket_timeout" value="60" />
             <configuration_option name="disable_classes" value="" />
             <configuration_option name="disable_functions" value="" />
-            <configuration_option name="display_errors" value="" />
-            <configuration_option name="display_startup_errors" value="" />
+            <configuration_option name="display_errors" value="1" />
+            <configuration_option name="display_startup_errors" value="1" />
             <configuration_option name="doc_root" value="" />
             <configuration_option name="docref_ext" value="" />
             <configuration_option name="docref_root" value="" />
