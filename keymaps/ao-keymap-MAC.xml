@@ -9,6 +9,14 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
+  <action id="NextSplitter" />
+  <action id="PrevSplitter" />
+  <action id="PreviousProjectWindow">
+    <keyboard-shortcut first-keystroke="shift alt tab" />
+  </action>
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
