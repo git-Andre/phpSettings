@@ -5,6 +5,7 @@
       <mapping pattern="StaticPages/Versandkosten.twig" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
       <mapping pattern="test" type="Twig" />
+      <mapping pattern="InfoSchaffrathTab.twig" type="Twig" />
     </extensionMap>
   </component>
 </application>
