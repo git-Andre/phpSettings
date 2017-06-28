@@ -1,5 +1,5 @@
 <templateSet group="Twig">
-  <template name="varD" value="&#10;        {# ao Var-Dump #}&#10;        {% include &quot;CeresSchaffrath::VarDump&quot; with { 'dataAo': $NAME$ } %} &#10;&#10;" description="ruft VarDump.twig auf, um die Variable als json-formatted Block auszugeben..." toReformat="false" toShortenFQNames="true">
+  <template name="varD" value="&#10;        {# ao Var-Dump #}&#10;        {% include &quot;CeresSchaffrath::VarDump&quot; with { 'dumpData': $NAME$ } %} &#10;&#10;" description="ruft VarDump.twig auf, um die Variable als json-formatted Block auszugeben..." toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="item" alwaysStopAt="true" />
     <context>
       <option name="Twig" value="true" />
