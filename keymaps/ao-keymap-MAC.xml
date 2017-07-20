@@ -2,11 +2,15 @@
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt f10" />
   </action>
+  <action id="CloseActiveTab" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl meta w" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="CloseAllUnmodifiedEditors">
+    <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="CloseAllUnpinnedEditors">
     <keyboard-shortcut first-keystroke="ctrl meta w" />
@@ -14,6 +18,7 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
+  <action id="DumpLookupElementWeights" />
   <action id="EditorContextInfo" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
@@ -34,6 +39,9 @@
   </action>
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta alt w" />
   </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="meta alt g" />
