@@ -20,6 +20,9 @@
   </action>
   <action id="DumpLookupElementWeights" />
   <action id="EditorContextInfo" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
