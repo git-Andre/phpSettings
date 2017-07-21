@@ -2,4 +2,10 @@
   <template name="++dd" value="dd($end$);" shortcut="ENTER" description="dd dump" toReformat="false" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
+  <template name="++ts" value="    templateUrl: './$component$.html',&#10;    styleUrls  : ['./$component$.css'],&#10;" description="require helper" toReformat="false" toShortenFQNames="true">
+    <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
