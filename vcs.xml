@@ -54,6 +54,10 @@
           <option name="url" value="https://github.com/git-Andre/plugin-tutorial-todolist.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/git-Andre/plugin-terra-basic.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Code/plenty/Tests_Uebungen" />
