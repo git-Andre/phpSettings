@@ -60,6 +60,6 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Code/plenty/Tests_Uebungen" />
+    <option name="cloneParentDir" value="$USER_HOME$/Code/plenty/" />
   </component>
 </application>
