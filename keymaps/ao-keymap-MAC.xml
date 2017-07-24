@@ -56,6 +56,9 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
+  <action id="ToggleFloatingMode">
+    <keyboard-shortcut first-keystroke="meta alt space" />
+  </action>
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
