@@ -8,4 +8,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="++cl" value="console.log($var$);" description="console.log" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
