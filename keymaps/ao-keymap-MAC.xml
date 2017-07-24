@@ -62,4 +62,5 @@
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="VimPluginToggle" />
 </keymap>
