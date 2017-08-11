@@ -18,11 +18,14 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
+  <action id="Diff.SelectedChange" />
   <action id="DumpLookupElementWeights" />
   <action id="EditorContextInfo" />
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
   </action>
@@ -36,6 +39,9 @@
     <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="NextSplitter" />
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
   <action id="PrevSplitter" />
   <action id="PreviousProjectWindow">
     <keyboard-shortcut first-keystroke="shift alt tab" />
