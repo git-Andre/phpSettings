@@ -1,5 +1,5 @@
 <templateSet group="ao-helper">
-  <template name="++dd" value="dd($end$);" shortcut="ENTER" description="dd dump" toReformat="false" toShortenFQNames="true">
+  <template name="++dd" value="dd($end$);" shortcut="ENTER" description="dd dump" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
@@ -7,7 +7,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="++ts" value="    templateUrl: './$component$.html',&#10;    styleUrls  : ['./$component$.css'],&#10;" description="require helper" toReformat="false" toShortenFQNames="true">
+  <template name="++ts" value="    templateUrl: './$component$.html',&#10;    styleUrls  : ['./$component$.css'],&#10;" description="require helper" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
