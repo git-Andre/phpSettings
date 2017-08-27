@@ -16,7 +16,7 @@
   <template name="++cl" value="console.log('$end$: ' + $end$);" description="console.log" toReformat="true" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="TypeScript" value="true" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
   <template name="++js" value="JSON.stringify($end$)" description="JSON.stringify" toReformat="false" toShortenFQNames="true">
