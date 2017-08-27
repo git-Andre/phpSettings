@@ -8,6 +8,10 @@
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
   </JSCodeStyleSettings>
+  <JSON>
+    <option name="SPACE_BEFORE_COLON" value="true" />
+    <option name="PROPERTY_ALIGNMENT" value="2" />
+  </JSON>
   <PHPCodeStyleSettings>
     <option name="INDENT_CODE_IN_PHP_TAGS" value="true" />
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
@@ -36,6 +40,9 @@
     <option name="IMPORT_PREFER_ABSOLUTE_PATH" value="TRUE" />
     <option name="IMPORT_USE_NODE_RESOLUTION" value="TRUE" />
   </TypeScriptCodeStyleSettings>
+  <codeStyleSettings language="JSON">
+    <option name="WRAP_ON_TYPING" value="1" />
+  </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="ELSE_ON_NEW_LINE" value="true" />
