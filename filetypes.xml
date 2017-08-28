@@ -4,6 +4,7 @@
       <mapping pattern="VarDumpAo.twig" type="PLAIN_TEXT" />
       <mapping pattern="StaticPages/Versandkosten.twig" type="PLAIN_TEXT" />
       <mapping pattern="liveAuctionBidFields.php" type="PLAIN_TEXT" />
+      <mapping pattern="=" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
       <mapping pattern="InfoSchaffrathTab.twig" type="Twig" />
