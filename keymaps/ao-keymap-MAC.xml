@@ -46,6 +46,9 @@
   <action id="PreviousProjectWindow">
     <keyboard-shortcut first-keystroke="shift alt tab" />
   </action>
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
