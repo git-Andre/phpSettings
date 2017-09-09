@@ -1,5 +1,5 @@
 <templateSet group="ao-helper">
-  <template name="++dd" value="dd($end$);" shortcut="ENTER" description="dd dump" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="++dd" value="dd($end$);" shortcut="ENTER" description="dd dump" toReformat="false" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
@@ -45,6 +45,12 @@
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="varD" value="&#10;{# ao Var-Dump #}&#10;{% include &quot;CeresSchaffrath::VarDump&quot; with { 'testDescription': '$VAR$', 'dumpData': $VAR$ } %}&#10;&#10;&#10;" description="ruft VarDump.twig auf, um die Variable als json-formatted Block auszugeben..." toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
     </context>
   </template>
 </templateSet>
