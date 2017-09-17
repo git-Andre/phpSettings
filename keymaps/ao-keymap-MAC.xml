@@ -59,6 +59,9 @@
     <keyboard-shortcut first-keystroke="meta alt g" />
   </action>
   <action id="ShowExecutionPoint" />
+  <action id="ShowTips">
+    <keyboard-shortcut first-keystroke="shift ctrl meta t" />
+  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
