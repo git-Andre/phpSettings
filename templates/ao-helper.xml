@@ -37,6 +37,7 @@
   <template name="++ct" value="console.log('$end$');" description="console.log nur Text" toReformat="true" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="JSON" value="true" />
       <option name="TypeScript" value="true" />
     </context>
