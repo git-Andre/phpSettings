@@ -98,6 +98,7 @@
   </codeStyleSettings>
   <codeStyleSettings language="Twig">
     <option name="RIGHT_MARGIN" value="136" />
+    <option name="WRAP_ON_TYPING" value="0" />
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
