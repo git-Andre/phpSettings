@@ -12,6 +12,7 @@
       <mapping pattern="InfoSchaffrathTab.twig" type="Twig" />
       <mapping pattern="BidderListModal" type="Twig" />
       <mapping pattern="test" type="Twig" />
+      <mapping pattern="AuctionEnd.twig" type="Twig" />
     </extensionMap>
   </component>
 </application>
