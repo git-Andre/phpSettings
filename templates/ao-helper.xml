@@ -7,9 +7,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="++ts" value="    templateUrl: './$component$.html',&#10;    styleUrls  : ['./$component$.css'],&#10;" description="require helper" toReformat="false" toShortenFQNames="true" deactivated="true">
-    <variable name="component" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="++api" value="            ApiService.get( &quot;/api/helper/&quot; + this.helper )&#10;                .done( response =&gt; {&#10;                    &#10;                } )&#10;                .fail( () =&gt; {&#10;                           alert( 'Upps - ein Fehler bei  ??!!' );&#10;                       }&#10;                )&#10;" description="Api Service" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
