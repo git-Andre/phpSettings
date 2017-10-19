@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="607c7043-3959-4a05-9f2c-f134513f538d" name="plenty-root" url="https://www.schaffrathnumis.de/">
+        <fileTransfer host="ftp-cloud02.plentymarkets.com" port="21" rootFolder="/layout_237218f69d">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

@@ -1,5 +1,64 @@
 <templateSet group="ao-helper">
   <template name="++dd" value="dd($end$);" shortcut="ENTER" description="dd dump" toReformat="false" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="++api" value="            ApiService.get( &quot;/api/helper/&quot; + this.helper )&#10;                .done( response =&gt; {&#10;                    &#10;                } )&#10;                .fail( () =&gt; {&#10;                           alert( 'Upps - ein Fehler bei  ??!!' );&#10;                       }&#10;                )&#10;" description="Api Service" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="++cl" value="console.log('$end$: ' + $end$);" description="console.log" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="++js" value="JSON.stringify($end$)" description="JSON.stringify" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="++cd" value="console.dir($end$);" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSON" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="++ct" value="console.log('$end$');" description="console.log nur Text" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSON" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="++al" value="alert('$end$: ' + $end$);" description="alert java" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="varD" value="&#10;{# ao Var-Dump #}&#10;{% include &quot;CeresSchaffrath::VarDump&quot; with { 'testDescription': '$VAR$', 'dumpData': $VAR$ } %}&#10;&#10;&#10;" description="ruft VarDump.twig auf, um die Variable als json-formatted Block auszugeben..." toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="++log" value="            $this -&gt; getLogger(__METHOD__)&#10;                  -&gt; setReferenceType('auctionId')&#10;                  -&gt; setReferenceValue($ID$)&#10;                  -&gt; debug('PluginAuctions::auctions.debug', ['$VAL$: ' =&gt; $VAL$]);&#10;" description="logger" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
   </template>
 </templateSet>

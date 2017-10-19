@@ -2,5 +2,7 @@
   <component name="IntentionManagerSettings">
     <ignoreAction name="Language Injection/Inject language or reference" />
     <ignoreAction name="JavaScript/Convert parameters to object" />
+    <ignoreAction name="TypeScript/Make 'private'" />
+    <ignoreAction name="JavaScript/Create Getter and Setter" />
   </component>
 </application>
