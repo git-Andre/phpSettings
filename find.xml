@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="PHP" />
-    <option name="defaultScopeName" value="PHP" />
+    <option name="customScope" value="php, twig ohne min/map" />
+    <option name="defaultScopeName" value="php, twig ohne min/map" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="PHP" />
+    <option name="SEARCH_SCOPE" value="php, twig ohne min/map" />
   </component>
 </application>
