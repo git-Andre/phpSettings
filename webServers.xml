@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e7443398-00aa-4191-bbbe-16a789817eb8" name="hermanns" url="http://hermanns03.worldsecuresystems.com">
+        <fileTransfer host="hermanns03.worldsecuresystems.com" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
