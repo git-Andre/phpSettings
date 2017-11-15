@@ -54,7 +54,7 @@
       <option name="Twig" value="true" />
     </context>
   </template>
-  <template name="++log" value="            $this -&gt; getLogger(__METHOD__)&#10;                  -&gt; setReferenceType('testedId')&#10;                  -&gt; setReferenceValue($ID$)&#10;                  -&gt; debug('PluginAuctions::auctions.debug', ['$VAL$: ' =&gt; $VAL$]);&#10;" description="logger" toReformat="true" toShortenFQNames="true">
+  <template name="++log" value="            $this -&gt; getLogger(__METHOD__)&#10;                  -&gt; setReferenceType('testedId')&#10;                  -&gt; setReferenceValue($ID$)&#10;                  -&gt; debug('PluginAuctions::Template.debug', ['$VAL$: ' =&gt; $VAL$]);&#10;" description="logger" toReformat="true" toShortenFQNames="true">
     <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
