@@ -72,4 +72,10 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="--&lt;" value="&lt;!-- $comm$ --&gt;" description="helper Kommentar twig / html" toReformat="false" toShortenFQNames="true">
+    <variable name="comm" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
