@@ -1,9 +1,24 @@
 <templateSet group="ao-helper">
-  <template name="++dd" value="dd($end$);" shortcut="ENTER" description="dd dump" toReformat="false" toShortenFQNames="true">
-    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
-  </template>
-  <template name="++con" value="console.println(&quot;$clip$ : &quot; + $clip$);" description="console.println" toReformat="true" toShortenFQNames="true">
+  <template name="++cf" value="db.cF( &quot;$clipField$ : &quot; + $clip$ );" shortcut="ENTER" description="Console Field Infos" toReformat="true" toShortenFQNames="true">
+    <variable name="clipField" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="++con" value="console.println(&quot;$clipText$ : &quot; + $clip$);" description="console.println" toReformat="true" toShortenFQNames="true">
+    <variable name="clipText" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="++cv" value="db.cV( &quot;$clipVar$ : &quot; + $clip$ );" description="debug Variable Infos" toReformat="true" toShortenFQNames="true">
+    <variable name="clipVar" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="++c" value="console.println(&quot;$cursor$ : &quot;);" description="Console nur Text" toReformat="true" toShortenFQNames="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
