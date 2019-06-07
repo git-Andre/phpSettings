@@ -1,7 +1,10 @@
 <templateSet group="ao-helper">
-  <template name="++cf" value="db.cF( &quot;$clipField$ : &quot; + $clip$ );" shortcut="ENTER" description="Console Field Infos" toReformat="true" toShortenFQNames="true">
+  <template name="++cf" value="db.fInfo( &quot;$clipField$ : &quot; + $clip$ );" description="Console Field Infos" toReformat="true" toShortenFQNames="true">
     <variable name="clipField" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
   <template name="++con" value="console.println(&quot;$clipText$ : &quot; + $clip$);" description="console.println" toReformat="true" toShortenFQNames="true">
     <variable name="clipText" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
