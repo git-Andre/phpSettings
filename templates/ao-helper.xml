@@ -15,7 +15,7 @@
   </template>
   <template name="++cv" value="db.cV( &quot;$Nr$: $file$ -&gt; $clipText$ --&gt; &quot;, $clip$ );" description="debug Variable Infos" toReformat="true" toShortenFQNames="true">
     <variable name="Nr" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
-    <variable name="file" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="file" expression="fileName()" defaultValue="" alwaysStopAt="false" />
     <variable name="clipText" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
