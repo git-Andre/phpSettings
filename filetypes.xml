@@ -2,8 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="chopro" type="ECMAScript 6" />
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="category-obj.json" type="JavaScript" />
       <mapping pattern="StaticPages/Versandkosten.twig" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
