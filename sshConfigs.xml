@@ -2,7 +2,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig authType="PASSWORD" host="hermanns03.worldsecuresystems.com" id="e9321eba-a6a6-4c9b-8ffc-f96f535f5031" port="22" customName="hermanns" nameFormat="CUSTOM" username="hermanns03.worldsecuresystems.com/adobe@andre-oelschlaegel.de" />
-      <sshConfig authType="PASSWORD" host="hermanns03.worldsecuresystems.com" id="5eea478e-f793-4d23-b380-122d013e4536" port="22" customName="hermanns" nameFormat="CUSTOM" username="hermanns03.worldsecuresystems.com/adobe@andre-oelschlaegel.de" />
+      <sshConfig authType="PASSWORD" host="hermanns03.worldsecuresystems.com" id="96c53025-34b4-43c7-b193-154f4ab4e52d" port="22" customName="hermanns" nameFormat="CUSTOM" username="hermanns03.worldsecuresystems.com/adobe@andre-oelschlaegel.de" />
     </configs>
   </component>
 </application>
