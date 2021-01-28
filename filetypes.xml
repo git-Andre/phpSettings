@@ -1,20 +1,20 @@
 <application>
-  <component name="FileTypeManager" version="17">
+  <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="punkte.py" type="AUTO_DETECTED" />
+      <mapping ext="py" type="AUTO_DETECTED" />
       <mapping ext="chopro" type="ECMAScript 6" />
       <mapping pattern="category-obj.json" type="JavaScript" />
+      <mapping pattern="Achsen_gesamt.py" type="PLAIN_TEXT" />
       <mapping pattern="StaticPages/Versandkosten.twig" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <mapping pattern="test" type="Twig" />
       <mapping pattern="Versand_D_EN_vonCategory_168" type="XHTML" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
-      <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />
     </extensionMap>
   </component>
