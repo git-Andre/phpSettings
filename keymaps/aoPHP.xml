@@ -1,4 +1,10 @@
 <keymap version="1" name="aoPHP" parent="$default">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
+  <action id="ActivateRemoteHostToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
@@ -13,6 +19,7 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
+  <action id="Console.TableResult.CloneColumn" />
   <action id="Console.TableResult.EditFilterCriteria" />
   <action id="EditorContextInfo" />
   <action id="EditorLookupUp" />
@@ -50,6 +57,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
+  <action id="UML.ShowChanges" />
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
