@@ -1,12 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="hermanns03.worldsecuresystems.com" id="e9321eba-a6a6-4c9b-8ffc-f96f535f5031" port="22" customName="hermanns" nameFormat="CUSTOM" username="hermanns03.worldsecuresystems.com/adobe@andre-oelschlaegel.de">
-        <option name="customName" value="hermanns" />
-      </sshConfig>
-      <sshConfig authType="PASSWORD" host="hermanns03.worldsecuresystems.com" id="8d7bf6f1-25da-4be2-b286-415bdeb7f3c2" port="22" customName="hermanns" nameFormat="CUSTOM" username="hermanns03.worldsecuresystems.com/adobe@andre-oelschlaegel.de">
-        <option name="customName" value="hermanns" />
-      </sshConfig>
+      <sshConfig authType="PASSWORD" host="192.168.2.211" id="20d42141-1b3c-46c3-b0f8-92c4be6caf8c" port="22" nameFormat="DESCRIPTIVE" username="admin-ao" />
     </configs>
   </component>
 </application>
