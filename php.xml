@@ -2,7 +2,7 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="d8b9ffa2-0fea-47b0-9105-bb100b0ac80a" name="admin-ao@192.168.2.211:2227 password" home="sshConfig://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="/usr/local/etc/php74/cli" HELPERS_PATH="" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" SSH_CONFIG_ID="20d42141-1b3c-46c3-b0f8-92c4be6caf8c" SSH_CONFIG_NAME="admin-ao@192.168.2.211:2227 password" SSH_CREDENTIALS_ID="sshConfig://admin-ao@192.168.2.211:2227 password" />
+        <remote_data INTERPRETER_PATH="/usr/local/etc/php/cli" HELPERS_PATH="" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" SSH_CONFIG_ID="20d42141-1b3c-46c3-b0f8-92c4be6caf8c" SSH_CONFIG_NAME="admin-ao@192.168.2.211:2227 password" SSH_CREDENTIALS_ID="sshConfig://admin-ao@192.168.2.211:2227 password" />
       </interpreter>
     </interpreters>
   </component>
