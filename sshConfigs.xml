@@ -1,11 +1,10 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="192.168.2.211" id="fc8c8bf2-d507-4555-b0b5-82f52817fbf2" port="22" customName="Andre Oelschlaegel@192.168.2.211:22" nameFormat="CUSTOM" username="Andre Oelschlaegel">
+      <sshConfig authType="PASSWORD" host="oelinas" id="fc8c8bf2-d507-4555-b0b5-82f52817fbf2" port="22" customName="Andre Oelschlaegel@192.168.2.211:22" nameFormat="CUSTOM" username="Andre Oelschlaegel">
         <option name="customName" value="Andre Oelschlaegel@192.168.2.211:22" />
       </sshConfig>
-      <sshConfig host="192.168.2.211" id="4289face-d2f7-4520-bf09-55cea4ef4692" keyPath="C:\Users\AndreOelschlaegel\.ssh\id_rsa" port="2227" nameFormat="DESCRIPTIVE" username="admin-ao" />
-      <sshConfig authType="OPEN_SSH" host="192.168.2.211" id="db9d76d6-6673-4d05-933a-87988691f136" port="2227" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig host="oelinas" id="4289face-d2f7-4520-bf09-55cea4ef4692" keyPath="C:\Users\AndreOelschlaegel\.ssh\id_rsa" port="2227" nameFormat="DESCRIPTIVE" username="admin-ao" />
     </configs>
   </component>
 </application>
