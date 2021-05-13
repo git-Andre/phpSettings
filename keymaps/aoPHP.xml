@@ -21,6 +21,7 @@
   </action>
   <action id="Console.TableResult.CloneColumn" />
   <action id="Console.TableResult.EditFilterCriteria" />
+  <action id="DatabaseView.OpenDdlInConsole" />
   <action id="EditorContextInfo" />
   <action id="EditorLookupUp" />
   <action id="EditorScrollUp" />
@@ -60,6 +61,9 @@
   <action id="UML.ShowChanges" />
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="WebDeployment.BrowseServers">
+    <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
   <action id="tasks.close" />
 </keymap>
