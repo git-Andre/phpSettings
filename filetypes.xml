@@ -6,6 +6,7 @@
       <mapping ext="chopro" type="ECMAScript 6" />
       <mapping pattern="category-obj.json" type="JavaScript" />
       <mapping pattern="Achsen_gesamt.py" type="PLAIN_TEXT" />
+      <mapping pattern=".redaxo" type="PLAIN_TEXT" />
       <mapping pattern="StaticPages/Versandkosten.twig" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
       <mapping pattern="test" type="Twig" />
