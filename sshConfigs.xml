@@ -6,6 +6,7 @@
         <option name="customName" value="Andre Oelschlaegel@192.168.2.211:22" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="192.168.2.211" id="a74c98c3-5a5c-4304-9f63-9d72502209db" port="2227" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig authType="PASSWORD" host="NAS-918" id="206a1417-31cf-45e3-9f43-48e8cad55163" port="22" nameFormat="DESCRIPTIVE" username="admin-ao" />
     </configs>
   </component>
 </application>
