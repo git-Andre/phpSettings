@@ -5,6 +5,7 @@
       <sshConfig authType="PASSWORD" host="192.168.2.211" id="fc8c8bf2-d507-4555-b0b5-82f52817fbf2" port="22" customName="Andre Oelschlaegel@192.168.2.211:22" nameFormat="CUSTOM" username="Andre Oelschlaegel">
         <option name="customName" value="Andre Oelschlaegel@192.168.2.211:22" />
       </sshConfig>
+      <sshConfig host="192.168.2.211" id="73bbef7b-0b4b-47d1-8e25-ff203b389038" keyPath="C:\Users\AndreOelschlaegel\.ssh\id_rsa" port="22" nameFormat="DESCRIPTIVE" username="root" />
     </configs>
   </component>
 </application>
