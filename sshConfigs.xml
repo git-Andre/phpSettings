@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="NAS-918" id="206a1417-31cf-45e3-9f43-48e8cad55163" port="2227" nameFormat="DESCRIPTIVE" username="admin-ao" />
+      <sshConfig host="NAS-918" id="206a1417-31cf-45e3-9f43-48e8cad55163" keyPath="C:\Users\AndreOelschlaegel\.ssh\admin\id_rsa" port="2227" nameFormat="DESCRIPTIVE" username="admin-ao" />
       <sshConfig authType="PASSWORD" host="192.168.2.211" id="fc8c8bf2-d507-4555-b0b5-82f52817fbf2" port="22" customName="Andre Oelschlaegel@192.168.2.211:22" nameFormat="CUSTOM" username="Andre Oelschlaegel">
         <option name="customName" value="Andre Oelschlaegel@192.168.2.211:22" />
       </sshConfig>

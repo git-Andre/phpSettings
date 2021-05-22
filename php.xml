@@ -5,7 +5,7 @@
         <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="phpstorm/php-71-apache-xdebug:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
       </interpreter>
       <interpreter id="13e1bff8-74b4-4a1b-a221-3dbdb9b2fc5c" name="root@192.168.2.211:2227 key" home="sshConfig://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="/volume4/@appstore/PHP7.4/usr/local/lib/php74/" HELPERS_PATH="" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" SSH_CONFIG_ID="73bbef7b-0b4b-47d1-8e25-ff203b389038" SSH_CONFIG_NAME="root@NAS-918:2227 key" SSH_CREDENTIALS_ID="sshConfig://root@192.168.2.211:22 key" />
+        <remote_data INTERPRETER_PATH="/volume4/@appstore/PHP7.4/usr/local/lib/php74/" HELPERS_PATH="" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" SSH_CONFIG_ID="206a1417-31cf-45e3-9f43-48e8cad55163" SSH_CONFIG_NAME="admin-ao@NAS-918:2227 key" SSH_CREDENTIALS_ID="sshConfig://admin-ao@NAS-918:2227 key" />
       </interpreter>
     </interpreters>
   </component>
