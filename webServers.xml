@@ -2,14 +2,14 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="fb7f82af-0317-4022-9dc1-cbf629d9b1da" name="NAS_AO" url="http://192.168.2.211/oeli/">
-        <fileTransfer rootFolder="/oeli" accessType="SFTP" host="192.168.2.211" port="22" sshConfigId="fc8c8bf2-d507-4555-b0b5-82f52817fbf2" sshConfig="Andre Oelschlaegel@192.168.2.211:22">
+        <fileTransfer rootFolder="/oeli" accessType="SFTP" sshConfigId="fc8c8bf2-d507-4555-b0b5-82f52817fbf2" sshConfig="Andre Oelschlaegel@192.168.2.211:22">
           <advancedOptions>
             <advancedOptions controlEncoding="UTF-8" keepAliveTimeout="0" passiveMode="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
       <webServer id="c5621fe2-05b9-4a3d-bb4e-fcd630bebc96" name="NAS_web-ao" url="http://web-ao.de">
-        <fileTransfer accessType="SFTP" host="192.168.2.211" port="22" sshConfigId="fc8c8bf2-d507-4555-b0b5-82f52817fbf2" sshConfig="Andre Oelschlaegel@192.168.2.211:22">
+        <fileTransfer accessType="SFTP" sshConfigId="fc8c8bf2-d507-4555-b0b5-82f52817fbf2" sshConfig="Andre Oelschlaegel@192.168.2.211:22">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
