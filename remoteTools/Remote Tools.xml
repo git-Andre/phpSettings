@@ -1,0 +1,9 @@
+<toolSet name="Remote Tools">
+  <tool name="test remote" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true" CONNECTION_TYPE="SSH_CONFIG" CONNECTION_ID="admin-ao@NAS-918:2227 key">
+    <exec>
+      <option name="COMMAND" value="ls" />
+      <option name="PARAMETERS" value="-all" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
