@@ -6,5 +6,10 @@
         <option value="German (Germany)" />
       </set>
     </option>
+    <option name="userDisabledRules">
+      <set>
+        <option value="AUSLASSUNGSPUNKTE" />
+      </set>
+    </option>
   </component>
 </application>
