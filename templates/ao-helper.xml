@@ -1,19 +1,19 @@
 <templateSet group="ao-helper">
-  <template name="++cf" value="db.fInfo( &quot;$clipField$ : &quot; + $clip$ );" description="Console Field Infos" toReformat="true" toShortenFQNames="true">
+  <template name="++cf" value="// todo print weg&#10;db.fInfo( &quot;$clipField$ : &quot; + $clip$ );" description="Console Field Infos" toReformat="true" toShortenFQNames="true">
     <variable name="clipField" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="++co" value="console.println(&quot;$Text$ : &quot; + $clip$);" description="console.println" toReformat="true" toShortenFQNames="true">
+  <template name="++co" value="// todo print weg&#10;console.println(&quot;$Text$ : &quot; + $clip$);" description="console.println" toReformat="true" toShortenFQNames="true">
     <variable name="Text" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="++cv" value="db.cV( &quot;$Nr$: $file$ -&gt;    $clipText$     --&gt; &quot;, $clip$, $clipName$.className );" description="debug Variable Infos" toReformat="true" toShortenFQNames="true">
+  <template name="++cv" value="// todo print weg&#10;db.cV( &quot;$Nr$: $file$ -&gt;    $clipText$     --&gt; &quot;, $clip$, $clipName$.className );" description="debug Variable Infos" toReformat="true" toShortenFQNames="true">
     <variable name="Nr" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
     <variable name="file" expression="fileName()" defaultValue="" alwaysStopAt="false" />
     <variable name="clipText" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
@@ -23,7 +23,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="++c" value="console.println(&quot;$cursor$ : &quot;);" description="Console nur Text" toReformat="true" toShortenFQNames="true">
+  <template name="++c" value="// todo print weg&#10;console.println(&quot;$cursor$ : &quot;);" description="Console nur Text" toReformat="true" toShortenFQNames="true">
     <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -43,13 +43,13 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="++cn" value="db.listObjectNodes($oKnode$);" description="display all Nodes" toReformat="true" toShortenFQNames="true">
+  <template name="++cn" value="// todo print weg&#10;db.listObjectNodes($oKnode$);" description="display all Nodes" toReformat="true" toShortenFQNames="true">
     <variable name="oKnode" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="++cc" value="db.cC();" description="Debugger aufrufen" toReformat="false" toShortenFQNames="true">
+  <template name="++cc" value="// todo print weg&#10;db.cC();" description="Debugger aufrufen" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
