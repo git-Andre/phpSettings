@@ -13,12 +13,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="++cv" value="// todo print weg&#10;db.cV( &quot;$Nr$: $file$ -&gt; $clipText$ -&gt; &quot;, $clip$, $clipName$.className );" description="debug Variable Infos" toReformat="true" toShortenFQNames="true">
+  <template name="++cv" value="// todo print weg&#10;db.cV( &quot;$Nr$: $file$ -&gt; $clipText$ -&gt; &quot;, $clip$, $clip$.$clipName$ );" description="debug Variable Infos" toReformat="true" toShortenFQNames="true">
     <variable name="Nr" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
     <variable name="file" expression="fileName()" defaultValue="" alwaysStopAt="false" />
     <variable name="clipText" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
-    <variable name="clipName" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clipName" expression="&quot;className&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
