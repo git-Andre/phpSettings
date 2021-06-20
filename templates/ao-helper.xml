@@ -72,4 +72,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="++try" value="try {&#10;    $clip$;&#10;} catch (e) {&#10;    console.println( &quot;$nr$ -&gt; | $file$ | -&gt; FEHLER: e --&gt; &quot; + e.name + &quot;\n&quot; + e.message + &quot;\n -----------------&quot; );&#10;}&#10;" description="try catch error" toReformat="false" toShortenFQNames="true">
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <variable name="nr" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <variable name="file" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
