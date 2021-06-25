@@ -8,7 +8,7 @@
     </option>
     <option name="userDisabledRules">
       <set>
-        <option value="AUSLASSUNGSPUNKTE" />
+        <option value="LanguageTool.DE.TYPOGRAFISCHE_ANFUEHRUNGSZEICHEN" />
       </set>
     </option>
   </component>
