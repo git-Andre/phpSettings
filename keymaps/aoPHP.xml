@@ -59,6 +59,7 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="QuickChangeScheme" />
   <action id="RecentChanges" />
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
