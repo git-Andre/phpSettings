@@ -89,4 +89,19 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="++//" value="/**&#10; * &#10; * @param $first_param$ $desc1$.&#10; * @param $sec_param$ $desc2$.&#10; * @return $desc3$; $desc4$ otherwise.&#10; */&#10; $end$" description="javadoc" toReformat="true" toShortenFQNames="true">
+    <variable name="first_param" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <variable name="desc1" expression="" defaultValue="desc1" alwaysStopAt="true" />
+    <variable name="sec_param" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
