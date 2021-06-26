@@ -57,8 +57,8 @@
     </context>
   </template>
   <template name="++co" value="// todo print weg&#10;console.println(&quot;$Text$ : &quot; + $clip$);" description="console.println" toReformat="true" toShortenFQNames="true">
-    <variable name="Text" expression="classNameComplete()" defaultValue="" alwaysStopAt="false" />
-    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="Text" expression="clipboard()" defaultValue="lineNumber()" alwaysStopAt="true" />
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
