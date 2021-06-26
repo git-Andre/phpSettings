@@ -8,6 +8,7 @@
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="shift alt 6" />
   </action>
+  <action id="ChangesView.GroupBy.Module" />
   <action id="CloseActiveTab" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="ctrl alt w" />
@@ -37,6 +38,7 @@
   </action>
   <action id="EditorShowGutterIconTooltip" />
   <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="ExtractMethod" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
     <keyboard-shortcut first-keystroke="ctrl l" />
@@ -52,6 +54,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
   </action>
   <action id="GotoLine" />
+  <action id="MaximizeEditorInSplit">
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
+  </action>
   <action id="MethodOverloadSwitchUp" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
@@ -68,10 +73,12 @@
     <keyboard-shortcut first-keystroke="ctrl alt s" />
     <keyboard-shortcut first-keystroke="ctrl comma" />
   </action>
+  <action id="TodoViewGroupByShowModules" />
   <action id="UML.ShowChanges" />
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="UsageGrouping.Module" />
   <action id="WebDeployment.BrowseServers">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
   </action>
