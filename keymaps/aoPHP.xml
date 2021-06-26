@@ -53,7 +53,9 @@
     <keyboard-shortcut first-keystroke="ctrl f3" />
     <keyboard-shortcut first-keystroke="shift ctrl alt f" />
   </action>
-  <action id="GotoLine" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
   <action id="MaximizeEditorInSplit">
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
