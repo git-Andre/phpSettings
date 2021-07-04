@@ -2,5 +2,6 @@
   <component name="NotificationConfiguration">
     <notification groupId="Kite" displayType="STICKY_BALLOON" shouldLog="false" />
     <notification groupId="Localization and Internationalization" displayType="NONE" shouldLog="false" />
+    <notification groupId="Plugin Error" shouldLog="false" />
   </component>
 </application>
